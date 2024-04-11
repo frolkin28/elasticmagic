@@ -8,7 +8,7 @@ import warnings
 from abc import ABCMeta
 from collections import namedtuple, OrderedDict
 
-from .compat import zip, with_metaclass, string_types
+from .compat import with_metaclass, string_types
 from .compat import Iterable
 from .util import _with_clone
 from .util import merge_params, collect_doc_classes
